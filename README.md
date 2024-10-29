@@ -1,6 +1,3 @@
-<img src="./jtpcllsg.png"
-style="width:3.14583in;height:1.73958in" />
-
 > 1\. Refer to the
 > [<u>notebook</u>](https://nipunbatra.github.io/ml-teaching/notebooks/names.html)
 > on generating names using next-character prediction and modify it for
@@ -37,14 +34,15 @@ style="width:3.14583in;height:1.73958in" />
 > b\. Convert the text to lowercase and use unique words to create the
 > vocabulary. c. To create X, and y pairs for training, you can use a
 > similar approach used for
->
+>c\. To create X, and y pairs for training, you can use a similar approach used for
 > next-character prediction. For example:
->
-> You will get something like *“.* *.* *.* *.* *.* *---\>* *to”*
-> whenever there is a paragraph change. d. You may have to use a larger
-> embedding size for words. (For example: 32 or 64) e. Use a similar
-> model as used for next-character prediction. Here, you may have to
->
+><img src="./jtpcllsg.png"
+style="width:3.14583in;height:1.73958in" />
+> You will get something like *“.* *.* *.* *.* *.* *---\>* *to”* whenever there is a paragraph change.
+> 
+> d. You may have to use a larger embedding size for words. (For example: 32 or 64)
+> 
+> e. Use a similar model as used for next-character prediction. Here, you may have to
 > increase the size of hidden layers. (For example, 1024).
 >
 > f\. For the streamlit app, no need to re-train the model based on the
